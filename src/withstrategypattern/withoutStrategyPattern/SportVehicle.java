@@ -1,4 +1,4 @@
-package withoutStrategyPattern;
+package withstrategypattern.withoutStrategyPattern;
 
 public class SportVehicle extends Vehicle {
   @Override
