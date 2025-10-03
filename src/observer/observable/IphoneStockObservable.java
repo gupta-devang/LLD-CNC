@@ -20,9 +20,7 @@ public class IphoneStockObservable implements StockObservable {
 
   @Override
   public void notifySubscribers() {
-    for (NotificationAlertObserver observer : list) {
-      observer.update();
-    }
+    list.forEach(NotificationAlertObserver::update);
   }
 
   @Override
