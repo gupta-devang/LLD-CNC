@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class IphoneStockObservable implements StockObservable {
-  private List<NotificationAlertObserver> list = new ArrayList<>();
+  private final List<NotificationAlertObserver> list = new ArrayList<>();
   private int count;
   @Override
   public void add(NotificationAlertObserver observer) {
