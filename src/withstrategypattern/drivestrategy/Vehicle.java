@@ -1,7 +1,7 @@
 package withstrategypattern.drivestrategy;
 
 public class Vehicle {
-  DriveStrategy driveStrategy;
+  private DriveStrategy driveStrategy;
 
   public Vehicle(DriveStrategy driveStrategy) {
     this.driveStrategy = driveStrategy;
